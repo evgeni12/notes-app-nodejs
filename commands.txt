@@ -1,0 +1,19 @@
+//Running app commands
+node app.js read --title="test"
+node app.js list
+node app.js remove --title="test2"
+node app.js add --title="test2" --body="test2"
+nodemon app.js
+
+//Installation
+npm init
+npm install validator@10.8.0
+npm install chalk@2.4.1
+npm install nodemon@1.18.5 -g
+npm i install yargs@12.0.2
+
+//Run debugger
+put 'debugger' in the code at the place you want your code to stop
+node inspect app.js command...
+'chrome://inspect' url in chrome
+'restart' in terminal to restart debugger
